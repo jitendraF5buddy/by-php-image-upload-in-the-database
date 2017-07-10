@@ -1,9 +1,12 @@
 <?php
+/* ---------F5buddy----------*/
+/* ---contact@f5buddy.com----*/
+
 
 $host = "localhost";    /* You Host name */
 $user = "root";         /* Database User */
 $password = "";         /* Database Password */
-$dbname = "tutorial_image_upload";   /* Database name */
+$dbname = "yourdatabane";   /* Database name */
 
 // Create connection
 $con = mysqli_connect($host, $user, $password,$dbname);
